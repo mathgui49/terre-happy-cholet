@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /mise-a-jour.html
+
+Sitemap: https://www.terrehappycholet.com/sitemap.xml
