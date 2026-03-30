@@ -2446,7 +2446,8 @@ textarea.form-control {
 
   .therapist-contacts,
   .therapist-contact-quick,
-  .therapist-hero-ctas {
+  .therapist-hero-ctas,
+  .therapist-badges {
     justify-content: center;
   }
 
