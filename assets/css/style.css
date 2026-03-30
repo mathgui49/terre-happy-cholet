@@ -780,6 +780,7 @@ em { font-style: italic; }
   font-weight: 500;
   position: relative;
   z-index: 1;
+  color: var(--white);
 }
 
 /* === ABOUT SECTION === */
@@ -1013,6 +1014,7 @@ em { font-style: italic; }
   color: var(--gray);
   margin-bottom: 14px;
   line-height: 1.4;
+  text-align: center;
 }
 
 .team-card .specialty-badge {
@@ -2489,6 +2491,12 @@ textarea.form-control {
 
   .about-stats {
     gap: 24px;
+    justify-content: center;
+  }
+
+  .about-text > div:last-child {
+    display: flex;
+    justify-content: center;
   }
 
   .room-features {
