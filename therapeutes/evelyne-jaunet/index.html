@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <script>!function(){var t=localStorage.getItem("theme"),d=window.matchMedia("(prefers-color-scheme:dark)").matches;if(t==="dark"||((!t)&&d))document.documentElement.setAttribute("data-theme","dark")}();</script>
+  <script>!function(){var t=localStorage.getItem("theme");if(t==="dark")document.documentElement.setAttribute("data-theme","dark")}();</script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Evelyne Jaunet — Gestalt-thérapie &amp; Psychothérapie | Terre'Happy Cholet</title>
   <meta name="description" content="Evelyne Jaunet, psychopraticienne en Gestalt-thérapie à Cholet. Accompagnement adultes : burn-out, confiance en soi, transitions de vie, deuil, relations. Cabinet au 118 rue Barjot.">
@@ -19,7 +19,7 @@
   <meta name="twitter:title" content="Evelyne Jaunet — Gestalt-thérapie &amp; Psychothérapie | Terre'Happy Cholet">
   <meta name="twitter:description" content="Evelyne Jaunet, psychopraticienne en Gestalt-thérapie à Cholet. Accompagnement adultes : burn-out, confiance en soi, transitions de vie, deuil, relations. Cabinet au 118 rue Barjot.">
   <meta name="twitter:image" content="https://www.terrehappycholet.com/therapeutes/evelyne-jaunet/photo.webp">
-  <link rel="stylesheet" href="/assets/css/style.css?v=8">
+  <link rel="stylesheet" href="/assets/css/style.css?v=9">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous">
 </head>
 <body>
@@ -53,6 +53,10 @@
           <li><a href="/contact/" class="nav-link">Contact</a></li>
         </ul>
         <a href="/contact/" class="btn btn-primary nav-cta">Contactez-nous</a>
+        <button class="search-trigger" aria-label="Rechercher" title="Rechercher (Ctrl+K)">
+          <i class="fas fa-search"></i>
+          <span>Rechercher</span>
+        </button>
         <button class="dark-toggle" id="darkToggle" aria-label="Mode sombre / clair">
           <i class="fas fa-moon icon-moon"></i>
           <i class="fas fa-sun icon-sun"></i>
@@ -239,5 +243,7 @@
   <button class="back-to-top" id="backToTop" aria-label="Retour en haut"><i class="fas fa-arrow-up"></i></button>
   <script src="/assets/js/main.js"></script>
   <script>document.getElementById('currentYear').textContent = new Date().getFullYear();</script>
+  <script src="/assets/js/search-data.js"></script>
+  <script src="/assets/js/search.js"></script>
 </body>
 </html>
