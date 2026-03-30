@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <script>!function(){var t=localStorage.getItem("theme"),d=window.matchMedia("(prefers-color-scheme:dark)").matches;if(t==="dark"||((!t)&&d))document.documentElement.setAttribute("data-theme","dark")}();</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page introuvable — Terre'Happy Cholet</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="stylesheet" href="/assets/css/style.css?v=8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous">
+</head>
+<body>
+
+  <header id="header">
+    <nav class="navbar">
+      <div class="container nav-inner">
+        <a href="/" class="nav-logo" aria-label="Terre'Happy Cholet - Accueil">
+          <img src="/assets/images/logo.webp" alt="Terre'Happy Cholet" height="50" width="auto">
+        </a>
+        <ul class="nav-menu" role="menubar">
+          <li><a href="/" class="nav-link">Accueil</a></li>
+          <li><a href="/equipe/" class="nav-link">L'équipe</a></li>
+          <li><a href="/actualites/" class="nav-link">Actualités</a></li>
+          <li><a href="/location-salle/" class="nav-link">Location de salle</a></li>
+          <li><a href="/contact/" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="/contact/" class="btn btn-primary nav-cta">Contactez-nous</a>
+        <button class="dark-toggle" id="darkToggle" aria-label="Mode sombre / clair">
+          <i class="fas fa-moon icon-moon"></i>
+          <i class="fas fa-sun icon-sun"></i>
+        </button>
+        <button class="hamburger" aria-label="Ouvrir le menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section style="min-height:80vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:calc(var(--nav-height) + 60px) 24px 80px;background:linear-gradient(160deg,var(--white) 0%,var(--primary-bg) 100%)">
+      <div class="reveal revealed">
+        <div style="font-size:clamp(6rem,20vw,10rem);font-weight:700;color:var(--primary);font-family:var(--font-heading);line-height:1;opacity:0.15;position:absolute;left:50%;transform:translateX(-50%);top:50%;margin-top:-4rem;pointer-events:none;user-select:none">404</div>
+        <div style="position:relative;z-index:1">
+          <span class="specialty-badge" style="margin-bottom:24px;display:inline-block">Erreur 404</span>
+          <h1 style="font-family:var(--font-heading);font-size:clamp(2rem,5vw,3rem);color:var(--dark);margin-bottom:16px;font-weight:700">
+            Page introuvable
+          </h1>
+          <p style="color:var(--dark-medium);max-width:500px;margin:0 auto 40px;font-size:1.05rem;line-height:1.7">
+            Oups&nbsp;! Cette page n'existe pas ou a été déplacée.<br>
+            Explorez notre site pour trouver ce qu'il vous faut.
+          </p>
+          <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap">
+            <a href="/" class="btn btn-primary btn-lg">
+              <i class="fas fa-home"></i>&nbsp; Accueil
+            </a>
+            <a href="/equipe/" class="btn btn-outline btn-lg">
+              <i class="fas fa-users"></i>&nbsp; Nos thérapeutes
+            </a>
+            <a href="/contact/" class="btn btn-outline btn-lg">
+              <i class="fas fa-envelope"></i>&nbsp; Contact
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>

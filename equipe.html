@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
+  <script>!function(){var t=localStorage.getItem("theme"),d=window.matchMedia("(prefers-color-scheme:dark)").matches;if(t==="dark"||((!t)&&d))document.documentElement.setAttribute("data-theme","dark")}();</script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Notre Équipe | Terre'Happy Cholet</title>
   <meta name="description" content="Rencontrez les 11 thérapeutes de Terre'Happy Cholet : hypnose, ostéopathie, naturopathie, réflexologie, kinésiologie, gestalt-thérapie, shiatsu, yoga, magnétisme et sonothérapie. 118 rue Barjot, 49300 Cholet.">
@@ -13,7 +14,7 @@
   <meta property="og:url" content="https://www.terrehappycholet.com/equipe/">
   <meta property="og:image" content="https://www.terrehappycholet.com/assets/images/logo.webp">
 
-  <link rel="stylesheet" href="/assets/css/style.css?v=7">
+  <link rel="stylesheet" href="/assets/css/style.css?v=8">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous">
 </head>
 <body>
@@ -45,11 +46,11 @@
                 <span><span class="dropdown-item-name">Alice Delabre</span><span class="dropdown-item-specialty">Relaxologie · Massothérapie</span></span>
               </a>
               <a href="/therapeutes/edith-defaux/" class="dropdown-item">
-                <img src="/therapeutes/edith-defaux/photo.jpg" alt="Edith Defaux" class="dropdown-item-photo" onerror="this.style.display='none'">
+                <img src="/therapeutes/edith-defaux/photo.webp" alt="Edith Defaux" class="dropdown-item-photo" onerror="this.style.display='none'">
                 <span><span class="dropdown-item-name">Edith Defaux</span><span class="dropdown-item-specialty">Kinésiologie Touch For Health</span></span>
               </a>
               <a href="/therapeutes/evelyne-jaunet/" class="dropdown-item">
-                <img src="/therapeutes/evelyne-jaunet/Evelyne.jpg" alt="Evelyne Jaunet" class="dropdown-item-photo" onerror="this.style.display='none'">
+                <img src="/therapeutes/evelyne-jaunet/photo.webp" alt="Evelyne Jaunet" class="dropdown-item-photo" onerror="this.style.display='none'">
                 <span><span class="dropdown-item-name">Evelyne Jaunet</span><span class="dropdown-item-specialty">Gestalt-thérapie · Psychothérapie</span></span>
               </a>
               <a href="/therapeutes/philippe-houssin/" class="dropdown-item">
@@ -57,11 +58,11 @@
                 <span><span class="dropdown-item-name">Philippe Houssin</span><span class="dropdown-item-specialty">Coaching · Moo'Vie</span></span>
               </a>
               <a href="/therapeutes/lydia-cousseau/" class="dropdown-item">
-                <img src="/therapeutes/lydia-cousseau/Lydia.png" alt="Lydia Cousseau" class="dropdown-item-photo" onerror="this.style.display='none'">
+                <img src="/therapeutes/lydia-cousseau/photo.webp" alt="Lydia Cousseau" class="dropdown-item-photo" onerror="this.style.display='none'">
                 <span><span class="dropdown-item-name">Lydia Cousseau</span><span class="dropdown-item-specialty">Magnétisme · Soins énergétiques</span></span>
               </a>
               <a href="/therapeutes/mathilde-cerezal/" class="dropdown-item">
-                <img src="/therapeutes/mathilde-cerezal/Mathilde.png" alt="Mathilde Cérézal" class="dropdown-item-photo" onerror="this.style.display='none'">
+                <img src="/therapeutes/mathilde-cerezal/photo.webp" alt="Mathilde Cérézal" class="dropdown-item-photo" onerror="this.style.display='none'">
                 <span><span class="dropdown-item-name">Mathilde Cérézal</span><span class="dropdown-item-specialty">Shiatsu · Yoga</span></span>
               </a>
               <a href="/therapeutes/nancy-giraudeau/" class="dropdown-item">
@@ -83,6 +84,10 @@
           <li><a href="/contact/" class="nav-link">Contact</a></li>
         </ul>
         <a href="/contact/" class="btn btn-primary nav-cta">Contactez-nous</a>
+        <button class="dark-toggle" id="darkToggle" aria-label="Mode sombre / clair">
+          <i class="fas fa-moon icon-moon"></i>
+          <i class="fas fa-sun icon-sun"></i>
+        </button>
         <button class="hamburger" aria-label="Ouvrir le menu" aria-expanded="false">
           <span></span><span></span><span></span>
         </button>
@@ -320,7 +325,7 @@
         <article class="team-card team-card-lg" data-category="magnetisme">
           <a href="/therapeutes/lydia-cousseau/" aria-label="Voir la fiche de Lydia Cousseau">
             <div class="team-photo-wrap">
-              <img src="/therapeutes/lydia-cousseau/Lydia.png" alt="Lydia Cousseau, magnétiseur à Cholet" class="team-photo" loading="lazy" onerror="this.style.visibility='hidden'">
+              <img src="/therapeutes/lydia-cousseau/photo.webp" alt="Lydia Cousseau, magnétiseur à Cholet" class="team-photo" loading="lazy" onerror="this.style.visibility='hidden'">
             </div>
           </a>
           <h3 class="team-name">Lydia Cousseau</h3>
@@ -341,7 +346,7 @@
         <article class="team-card team-card-lg" data-category="kinesio">
           <a href="/therapeutes/edith-defaux/" aria-label="Voir la fiche de Edith Defaux">
             <div class="team-photo-wrap">
-              <img src="/therapeutes/edith-defaux/photo.jpg" alt="Edith Defaux, kinésiologue à Cholet" class="team-photo" loading="lazy">
+              <img src="/therapeutes/edith-defaux/photo.webp" alt="Edith Defaux, kinésiologue à Cholet" class="team-photo" loading="lazy">
             </div>
           </a>
           <h3 class="team-name">Edith Defaux</h3>
@@ -358,7 +363,7 @@
         <article class="team-card team-card-lg" data-category="gestalt">
           <a href="/therapeutes/evelyne-jaunet/" aria-label="Voir la fiche de Evelyne Jaunet">
             <div class="team-photo-wrap">
-              <img src="/therapeutes/evelyne-jaunet/Evelyne.jpg" alt="Evelyne Jaunet, gestalt-thérapeute à Cholet" class="team-photo" loading="lazy" onerror="this.style.visibility='hidden'">
+              <img src="/therapeutes/evelyne-jaunet/photo.webp" alt="Evelyne Jaunet, gestalt-thérapeute à Cholet" class="team-photo" loading="lazy" onerror="this.style.visibility='hidden'">
             </div>
           </a>
           <h3 class="team-name">Evelyne Jaunet</h3>
@@ -379,7 +384,7 @@
         <article class="team-card team-card-lg" data-category="shiatsu">
           <a href="/therapeutes/mathilde-cerezal/" aria-label="Voir la fiche de Mathilde Cérézal">
             <div class="team-photo-wrap">
-              <img src="/therapeutes/mathilde-cerezal/Mathilde.png" alt="Mathilde Cérézal, shiatsu et yoga à Cholet" class="team-photo" loading="lazy" onerror="this.style.display='none'">
+              <img src="/therapeutes/mathilde-cerezal/photo.webp" alt="Mathilde Cérézal, shiatsu et yoga à Cholet" class="team-photo" loading="lazy" onerror="this.style.display='none'">
             </div>
           </a>
           <h3 class="team-name">Mathilde Cérézal</h3>

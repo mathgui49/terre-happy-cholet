@@ -582,3 +582,22 @@ document.addEventListener('DOMContentLoaded', function () {
     }, 200 + i * 150);
   });
 });
+
+// ============================================================
+// === DARK MODE ===
+// ============================================================
+(function initDarkMode() {
+  var toggle = document.getElementById('darkToggle');
+  var root = document.documentElement;
+
+  function applyTheme(theme) {
+    root.setAttribute('data-theme', theme);
+    try { localStorage.setItem('theme', theme); } catch(e) {}
+  }
+
+  if (!toggle) return;
+
+  toggle.addEventListener('click', function () {
+    applyTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+  });
+})();
