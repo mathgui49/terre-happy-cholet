@@ -133,11 +133,6 @@ em { font-style: italic; }
   padding: 0 24px;
 }
 
-.container-wide {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 0 24px;
-}
 
 /* === SECTIONS === */
 .section {
@@ -1746,13 +1741,6 @@ em { font-style: italic; }
   margin: 0;
 }
 
-.therapist-nav-btns {
-  display: flex;
-  gap: 16px;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 48px 24px;
-}
 
 .therapist-update-link {
   text-align: center;
@@ -1773,7 +1761,6 @@ em { font-style: italic; }
 }
 
 /* === THERAPIST PAGE — nouvelle structure (hero-content / sidebar) === */
-.therapist-hero-bg { display: none; }
 
 .therapist-hero-content {
   display: flex;

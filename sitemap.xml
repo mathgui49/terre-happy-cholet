@@ -4,42 +4,42 @@
   <!-- Pages principales -->
   <url>
     <loc>https://www.terrehappycholet.com/</loc>
-    <lastmod>2025-03-15</lastmod>
+    <lastmod>2026-03-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://www.terrehappycholet.com/equipe.html</loc>
-    <lastmod>2025-03-15</lastmod>
+    <loc>https://www.terrehappycholet.com/equipe/</loc>
+    <lastmod>2026-03-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.terrehappycholet.com/actualites.html</loc>
-    <lastmod>2025-03-15</lastmod>
+    <loc>https://www.terrehappycholet.com/actualites/</loc>
+    <lastmod>2026-03-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.terrehappycholet.com/location-salle.html</loc>
-    <lastmod>2025-03-15</lastmod>
+    <loc>https://www.terrehappycholet.com/location-salle/</loc>
+    <lastmod>2026-03-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.terrehappycholet.com/contact.html</loc>
-    <lastmod>2025-03-15</lastmod>
+    <loc>https://www.terrehappycholet.com/contact/</loc>
+    <lastmod>2026-03-30</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://www.terrehappycholet.com/mentions-legales.html</loc>
-    <lastmod>2025-03-15</lastmod>
+    <loc>https://www.terrehappycholet.com/mentions-legales/</loc>
+    <lastmod>2026-03-30</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -47,70 +47,77 @@
   <!-- Pages thérapeutes -->
   <url>
     <loc>https://www.terrehappycholet.com/therapeutes/sophie-arnault/</loc>
-    <lastmod>2025-03-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://www.terrehappycholet.com/therapeutes/lucie-boussard/</loc>
-    <lastmod>2025-03-15</lastmod>
+    <lastmod>2026-03-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://www.terrehappycholet.com/therapeutes/stephanie-chauvin/</loc>
-    <lastmod>2025-03-15</lastmod>
+    <lastmod>2026-03-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://www.terrehappycholet.com/therapeutes/alice-delabre/</loc>
-    <lastmod>2025-03-15</lastmod>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.terrehappycholet.com/therapeutes/edith-defaux/</loc>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.terrehappycholet.com/therapeutes/evelyne-jaunet/</loc>
+    <lastmod>2026-03-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://www.terrehappycholet.com/therapeutes/philippe-houssin/</loc>
-    <lastmod>2025-03-15</lastmod>
+    <lastmod>2026-03-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://www.terrehappycholet.com/therapeutes/audrey-mhoma-desorgues/</loc>
-    <lastmod>2025-03-15</lastmod>
+    <loc>https://www.terrehappycholet.com/therapeutes/lydia-cousseau/</loc>
+    <lastmod>2026-03-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://www.terrehappycholet.com/therapeutes/stephanie-quartier/</loc>
-    <lastmod>2025-03-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://www.terrehappycholet.com/therapeutes/sophie-raveneau/</loc>
-    <lastmod>2025-03-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://www.terrehappycholet.com/therapeutes/anne-tabakhoff/</loc>
-    <lastmod>2025-03-15</lastmod>
+    <loc>https://www.terrehappycholet.com/therapeutes/mathilde-cerezal/</loc>
+    <lastmod>2026-03-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://www.terrehappycholet.com/therapeutes/nancy-giraudeau/</loc>
-    <lastmod>2025-03-15</lastmod>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.terrehappycholet.com/therapeutes/sophie-raveneau/</loc>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.terrehappycholet.com/therapeutes/anne-tabakhoff/</loc>
+    <lastmod>2026-03-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
