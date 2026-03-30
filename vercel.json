@@ -21,13 +21,13 @@
     {
       "source": "/assets/css/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=15552000, immutable" }
+        { "key": "Cache-Control", "value": "public, max-age=3600, must-revalidate" }
       ]
     },
     {
       "source": "/assets/js/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=15552000, immutable" }
+        { "key": "Cache-Control", "value": "public, max-age=3600, must-revalidate" }
       ]
     },
     {
