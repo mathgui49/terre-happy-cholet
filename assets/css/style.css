@@ -1014,7 +1014,9 @@ em { font-style: italic; }
   color: var(--gray);
   margin-bottom: 14px;
   line-height: 1.4;
-  text-align: center;
+  text-align: center !important;
+  width: 100%;
+  display: block;
 }
 
 .team-card .specialty-badge {
