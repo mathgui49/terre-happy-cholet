@@ -583,25 +583,3 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-// ============================================================
-// === DARK MODE ===
-// ============================================================
-(function initDarkMode() {
-  var root = document.documentElement;
-
-  function applyTheme(theme) {
-    root.setAttribute('data-theme', theme);
-    try { localStorage.setItem('theme', theme); } catch(e) {}
-  }
-
-  // Ensure explicit state (the inline FOUC script may or may not have set it)
-  if (!root.getAttribute('data-theme')) {
-    root.setAttribute('data-theme', 'light');
-  }
-
-  document.querySelectorAll('.dark-toggle').forEach(function (toggle) {
-    toggle.addEventListener('click', function () {
-      applyTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
-    });
-  });
-})();
