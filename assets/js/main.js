@@ -587,7 +587,6 @@ document.addEventListener('DOMContentLoaded', function () {
 // === DARK MODE ===
 // ============================================================
 (function initDarkMode() {
-  var toggle = document.getElementById('darkToggle');
   var root = document.documentElement;
 
   function applyTheme(theme) {
@@ -595,9 +594,14 @@ document.addEventListener('DOMContentLoaded', function () {
     try { localStorage.setItem('theme', theme); } catch(e) {}
   }
 
-  if (!toggle) return;
+  // Ensure explicit state (the inline FOUC script may or may not have set it)
+  if (!root.getAttribute('data-theme')) {
+    root.setAttribute('data-theme', 'light');
+  }
 
-  toggle.addEventListener('click', function () {
-    applyTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+  document.querySelectorAll('.dark-toggle').forEach(function (toggle) {
+    toggle.addEventListener('click', function () {
+      applyTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+    });
   });
 })();
